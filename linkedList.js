@@ -1,9 +1,9 @@
-var Node = function(val) {
+let Node = function(val) {
     this.val = val
     this.next = null
 }
 
-var MyLinkedList = function() {
+let MyLinkedList = function() {
     this.head = null
     this.size = 0
 };
@@ -73,6 +73,7 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
 MyLinkedList.prototype.print = () => {
   let node = this.head
   while(true){
-    console.log()
+    console.log(node)
+    node = node.next
   }
 }
