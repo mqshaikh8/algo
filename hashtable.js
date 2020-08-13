@@ -46,7 +46,6 @@ class HashTable {
     }
   }
 
-
 let hshtble = new HashTable()
 hshtble.set("Kulsum","Not coool enough")
 hshtble.set("Hanzala","Cooler than kulsum")
